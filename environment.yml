@@ -1,4 +1,4 @@
-name: bm3
+name: soil
 channels:
   - pyg
   - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
@@ -128,4 +128,4 @@ dependencies:
       - tqdm==4.65.0
       - werkzeug==2.2.3
       - zipp==3.15.0
-prefix: /home/user/miniconda3/envs/bm3
+prefix: /home/user/miniconda3/envs/soil
