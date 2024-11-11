@@ -58,7 +58,7 @@ class SOIL(GeneralRecommender):
             text_interest_adj = torch.load(text_interest_file)
             print(text_interest_file+" loaded!")
         else:
-            #interest graph
+            #interest graph 公式1 计算cos相似度
             image_adj = build_sim(self.image_embedding.weight.detach())
             text_adj = build_sim(self.text_embedding.weight.detach())
             image_interest = torch.zeros_like(image_adj)
